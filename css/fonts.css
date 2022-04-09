@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'HelveticaNeueCE';
+    src: url('../fonts/helveticaneuece.ttf');
+}
+@font-face {
+    font-family: 'HelveticaLT';
+    src: url('../fonts/HelveticaLT.ttf');
+}
+@font-face {
+    font-family: 'Exo-Regular';
+    src: url('../fonts/Exo-Regular.ttf');
+}
+@font-face {
+    font-family: 'Exo-Bold';
+    src: url('../fonts/Exo-Bold.ttf');
+}

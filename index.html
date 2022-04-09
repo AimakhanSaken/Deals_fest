@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"async></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body style='overflow-x:hidden;'>
+    <header class="main-header">
+        <div class="container">
+            <div class="row">
+                <div class="main-header-two">
+                    <div class="header-top">
+                        <div class="top-logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="header-top__left">
+                            <div class="sign-in-up">
+                                <ul class="top-sign">
+                                    <li>
+                                        <a href="#" class="sign-link">Sign in</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="sign-link">Sign up</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="shopping-cart">
+                                <div class="cart">
+                                    <div class="bascket">
+                                        <a href="" class="korzina">
+                                            <img src="img/bascket.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="price">
+                                        <p>$521</p>
+                                    </div>
+                                    <button class="checkout">Checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="one">
+        <div class="container">
+            <div class="row">
+                <div class="header">
+                    <div class="top-nav">
+                        <ul class="nav-menu">
+                            <li>
+                                <a href="" class="nav-link">Hot Deals</a>
+                            </li>
+                            <li>
+                                <a href="" class="nav-link">Deal of the day</a>
+                            </li>
+                            <li>
+                                <a href="" class="nav-link">Most recent</a>
+                            </li>
+                        </ul>
+                        <form action="" method="get">
+                            <select class="city">
+                                <option selected > Chose your city</option>
+                                <option>New York</option>
+                                <option>Boston</option>
+                                <option>Trenton</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="left-top">
+                        <div class="left-top__header">
+                            <div class="value">
+                                <p>Value</p>
+                                <p>$90</p>
+                            </div>
+                            <div class="discount">
+                                <p>Discount</p>
+                                <p>15.1%</p>
+                            </div>
+                            <div class="save">
+                                <p>Save</p>
+                                <p>$20</p>
+                            </div>
+                        </div>
+                        <div class="countdown">
+                            <p>Time left to purchase</p>
+                            <ul class="countdown__ul">
+                                <li><span id="days"></span>Day</li>
+                                <p>:</p>
+                                <li><span id="hours"></span>Hrs</li>
+                                <p>:</p>
+                                <li><span id="minutes"></span>Mints</li>
+                                <p>:</p>
+                                <li><span id="seconds"></span>Secs</li>
+                              </ul>
+                        </div>
+                        <div class="tweny">
+                            <p>$20.00</p>
+                            <div class="buynow">
+                                <button class="buy-now">Buy now</button>
+                            </div>
+                            <div class="recommend">
+                                <p>Recommend to friends!</p>
+                                <div class="socialmed">
+                                    <a href="" class="facebook">
+                                        <img src="img/facebooklogoicon.png" alt="">
+                                    </a>
+                                    <a href="" class="twitter">
+                                        <img src="img/twitterlogoicon.png" alt="">
+                                    </a>
+                                    <a href="" class="email">
+                                        <img src="img/Mailicon.png" alt="">
+                                    </a>
+                                </div>
+                            </div>                     
+                        </div>
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4739.51088829849!2d-0.09459232279318468!3d53.56213295302605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48788353924b4a7b%3A0x1d04572c3612c987!2zMiBBdWd1c3RhIFN0LCBHcmltc2J5IEROMzQgNFRBLCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2skz!4v1649484390114!5m2!1sru!2skz" width="288" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="feedbacks">
+                            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                            <div class="elfsight-app-57c1ae63-92d2-4535-8c5c-0b1841786005"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-right">
+                    <div class="center">
+                        <div class="center-title">
+                            <p>Lorem Ipsum is simply dummy text of the printing</p>
+                        </div>
+                        <div class="bottle-text">
+                            <img src="img/bacardi.png" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolores quas perferendis corrupti officia id dolor consequatur nam inventore quasi ut cupiditate quod aut minima, dolorem, voluptate harum molestiae repudiandae!</p>
+                        </div>
+                        <div class="phone-addres">
+                            <img src="img/center-right.png" alt="">
+                            <div class="phone-addres__part-two">
+                                <div class="phonenumber">
+                                    <p>Phone number</p>
+                                    <p>99-998 547 533</p>
+                                </div>
+                                <div class="address">
+                                    <img src="img/mappointer.png" alt="">
+                                    <div class="address-text">
+                                        <p>Address</p>
+                                        <p>2 Augusta St Grimsby DN34 4TA</p>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                        <div class="lorem-text">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptates temporibus est quam quo deserunt, ad adipisci laborum illum, assumenda eligendi saepe doloribus odit architecto iste non! Fuga, animi at  amet consectetur adipisicing elit. Maxime, voluptates temporibus est quam quo deserunt,  adipisci laborum illum, assumenda eligendi saepe doloribus odit architecto iste non! Fuga, animi at  amet consectetur adipi ad adipisci .</p>
+                            <p>Lorem ipsum dolor   amet consectetur adipisicing elit. Maxime, voluptates temporibus est quam quo deserunt, ad adipisci  sit amet consectetur adipisicing elit. Cumque quas, quo fugit maiores iste doloremque mollitia iure doloribus enim aut beatae voluptate vel sapiente repellat dolorem harum minus fuga eligendi  amet consectetur adipisicing elit. Maxime, voluptates temporibus est quam quo deserunt, ad adipisci ? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quo eligendi deserunt cum vitae saepe iure officiis officia, quibusdam, deleniti ut voluptas nobis soluta </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="right-title">
+                            <p>Todays deals</p>
+                        </div>
+                        <div class="lorem-simply">
+                            <p>Lorem Ipsum is simply</p>
+                            <div class="lorem-simply__header">
+                                <div class="value-small">
+                                    <p>Value</p>
+                                    <p>$90</p>
+                                </div>
+                                <div class="discount-small">
+                                    <p>Discount</p>
+                                    <p>15.1%</p>
+                                </div>
+                                <div class="save-small">
+                                    <p>Save</p>
+                                    <p>$20</p>
+                                </div>
+                            </div>
+                            <div class="picture-watch">
+                                <div class="picture-right">
+                                    <img src="img/right.png" alt="">
+                                </div>
+                                <div class="watch">
+                                    <img src="img/watch.png" alt="">
+                                    <p>Time left</p>
+                                    <ul class="right-countdown__ul">
+                                        <li class="r-count"><span id="hr"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="min"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="sec"></span></li>
+                                      </ul>
+                                </div>
+
+                            </div>    
+                        </div>
+                        <div class="lorem-simply">
+                            <p>Lorem Ipsum is simply</p>
+                            <div class="lorem-simply__header">
+                                <div class="value-small">
+                                    <p>Value</p>
+                                    <p>$90</p>
+                                </div>
+                                <div class="discount-small">
+                                    <p>Discount</p>
+                                    <p>15.1%</p>
+                                </div>
+                                <div class="save-small">
+                                    <p>Save</p>
+                                    <p>$20</p>
+                                </div>
+                            </div>
+                            <div class="picture-watch">
+                                <div class="picture-right">
+                                    <img src="img/right.png" alt="">
+                                </div>
+                                <div class="watch">
+                                    <img src="img/watch.png" alt="">
+                                    <p>Time left</p>
+                                    <ul class="right-countdown__ul">
+                                        <li class="r-count"><span id="h"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="m"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="s"></span></li>
+                                      </ul>
+                                </div>
+
+                            </div>    
+                        </div>
+                        <div class="lorem-simply">
+                            <p>Lorem Ipsum is simply</p>
+                            <div class="lorem-simply__header">
+                                <div class="value-small">
+                                    <p>Value</p>
+                                    <p>$90</p>
+                                </div>
+                                <div class="discount-small">
+                                    <p>Discount</p>
+                                    <p>15.1%</p>
+                                </div>
+                                <div class="save-small">
+                                    <p>Save</p>
+                                    <p>$20</p>
+                                </div>
+                            </div>
+                            <div class="picture-watch">
+                                <div class="picture-right">
+                                    <img src="img/right.png" alt="">
+                                </div>
+                                <div class="watch">
+                                    <img src="img/watch.png" alt="">
+                                    <p>Time left</p>
+                                    <ul class="right-countdown__ul">
+                                        <li class="r-count"><span id="chasy"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="minyty"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="secyndy"></span></li>
+                                      </ul>
+                                </div>
+
+                            </div>    
+                        </div>
+                        <div class="lorem-simply">
+                            <p>Lorem Ipsum is simply</p>
+                            <div class="lorem-simply__header">
+                                <div class="value-small">
+                                    <p>Value</p>
+                                    <p>$90</p>
+                                </div>
+                                <div class="discount-small">
+                                    <p>Discount</p>
+                                    <p>15.1%</p>
+                                </div>
+                                <div class="save-small">
+                                    <p>Save</p>
+                                    <p>$20</p>
+                                </div>
+                            </div>
+                            <div class="picture-watch">
+                                <div class="picture-right">
+                                    <img src="img/right.png" alt="">
+                                </div>
+                                <div class="watch">
+                                    <img src="img/watch.png" alt="">
+                                    <p>Time left</p>
+                                    <ul class="right-countdown__ul">
+                                        <li class="r-count"><span id="chas"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="minyt"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="secynd"></span></li>
+                                      </ul>
+                                </div>
+
+                            </div>    
+                        </div>
+                        <div class="lorem-simply">
+                            <p>Lorem Ipsum is simply</p>
+                            <div class="lorem-simply__header">
+                                <div class="value-small">
+                                    <p>Value</p>
+                                    <p>$90</p>
+                                </div>
+                                <div class="discount-small">
+                                    <p>Discount</p>
+                                    <p>15.1%</p>
+                                </div>
+                                <div class="save-small">
+                                    <p>Save</p>
+                                    <p>$20</p>
+                                </div>
+                            </div>
+                            <div class="picture-watch">
+                                <div class="picture-right">
+                                    <img src="img/right.png" alt="">
+                                </div>
+                                <div class="watch">
+                                    <img src="img/watch.png" alt="">
+                                    <p>Time left</p>
+                                    <ul class="right-countdown__ul">
+                                        <li class="r-count"><span id="ch"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="miny"></span></li>
+                                        <p>:</p>
+                                        <li class="r-count"><span id="secyn"></span></li>
+                                      </ul>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-body">
+                <p>2012 Deals Designed by cssauthor com</p>                         
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+  
